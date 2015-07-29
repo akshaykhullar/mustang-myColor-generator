@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mustang myColor combinations</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="normalize.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Generate myColor</h1>
+		</header>
+		<div id="color-container" class="mdl-card mdl-shadow--2dp demo-card-image">
+		  <div class="mdl-card__title mdl-card--expand"></div>
+		  <div class="mdl-card__actions">
+		    <span class="demo-card-image__filename" id="rgb-text">RGB (1,1,1)</span>
+		  </div>
+		</div>
+		<center><p style="width:300px">
+  			<input type="range" id="color-input-R" min="1" max="5" value="1" step="1" />
+  			<input type="range" id="color-input-G" min="1" max="5" value="1" step="1" />
+  			<input type="range" id="color-input-B" min="1" max="5" value="1" step="1" />
+		</p>
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="generate-color">Generate Color</button></center>
+	</div>
+
+	<script type="text/javascript" src="generateColor.js"></script>
+</body>
+</html>

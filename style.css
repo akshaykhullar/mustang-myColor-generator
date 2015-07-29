@@ -1,0 +1,39 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#color-container {
+	width: 50%;
+	height: 250px;
+	margin: 0 auto;
+	background-color: #e0e0e0;
+	margin-bottom: 10px;
+	border-radius: 8px;
+}
+
+header {
+	margin: 0 auto;
+	text-align: center;
+}
+
+input {
+	width: 100%;
+	margin: 10px 0 5px 0;
+}
+
+.demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+  }
